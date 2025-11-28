@@ -9,5 +9,6 @@ const adapter = new PrismaPg({ connectionString: "postgresql://myuser:mypassword
 export class PrismaService extends PrismaClient {
   constructor(){
     super({adapter});
+    
   }
 }
